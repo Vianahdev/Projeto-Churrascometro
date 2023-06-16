@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;500&family=Lato:wght@100;300;400&family=Medula+One&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+        <title>Churras-Cômetro</title>
+    </head>
+    <body>
+
+        <section id="logo">
+            <img src="image/logo.png" alt="">
+        </section>
+
+        <section id="container">
+            <div class="conteiner-content">
+                <div class="container-adulto">
+                    <img src="image/silhuetas-de-formas-femininas-e-masculinas.png" alt="">
+                    <input type="number" name="Adulto" id="txt1" placeholder="ADULTO">
+                </div>
+
+                <div class="container-crianca">
+                    <img src="image/irma-e-irmao.png" alt="">
+                    <input type="number" name="Criança" id="txt2" placeholder="CRIANÇA">
+                </div>
+                
+                <div class="container-tempo">
+                    <img src="image/ampulheta.png" alt="">
+                    <input type="number" name="Duracação" id="txt3" placeholder="DURAÇÃO">
+                </div>   
+
+                <div class="container-button">
+                    <input type="button" id="button" value="CALCULAR" onclick="calcular()">
+                </div>
+            </div>
+
+            <div id="conteiner_result">
+                <p id="result"></p>
+            </div>
+
+        </section>
+
+        <footer id="footer-bar">
+            <div class="footer-content">
+                <h3>&copy; Todos os direitos reservados Vianahdev</h3>
+            </div>
+           </footer>
+
+        <script src="js/script.js"></script>
+
+    </body>
+</html>
