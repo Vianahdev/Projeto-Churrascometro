@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Projeto Churrascometro é uma página Web criada como forma de agregar conhecimento.
 
-- [Acesse o projeto finalizado, online](https://Vianahdev.github.io/Projeto-Pagina-Responsiva/)
+- [Acesse o projeto finalizado, online](https://Vianahdev.github.io/Projeto-Churrascometro/)
 
 
 ## :memo: Licença
